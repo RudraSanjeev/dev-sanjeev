@@ -1,0 +1,15 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "- export the module to use it in other places - make sure your type is module in the package.json file - make sure your test file name as **test.sum.js** where sum.js is your module name; - import inside test file and write test condition like this",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
